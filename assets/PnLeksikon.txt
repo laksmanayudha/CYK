@@ -16,3 +16,4 @@ mangda
 Sangkaning
 dahat
 antuk
+tan

@@ -14,3 +14,4 @@ Taler
 Dahat
 Naler
 Setata
+banget

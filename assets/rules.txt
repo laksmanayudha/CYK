@@ -8,6 +8,7 @@ K -> Bd Kj
 K -> Gt Kj
 K -> S Kj
 K -> K Bd
+S -> Bd FN
 S -> FN Gt
 S -> FN Bd
 S -> Pn Bd
@@ -28,6 +29,9 @@ S -> FN Gt
 S -> FN FN
 S -> Bd FP
 S -> FN FP
+S -> Pn Bil
+S -> Bd FV
+S -> Gt FV
 P -> FN Gt
 P -> FN Bd
 P -> Pn Bd
@@ -57,6 +61,7 @@ O -> Pn Bd
 O -> Pn FN
 O -> Sf FP
 O -> FA FP
+O -> Bd FN
 Pel -> Sf Bd
 Pel -> Bd Gt
 Pel -> FN FN
@@ -64,6 +69,8 @@ Pel -> FN Bil
 Pel -> FN Bd
 Pel -> Bil Bd
 Pel -> Bd Bil
+Pel -> FP FV
+Pel -> FP Kj
 Ket -> FP Kj
 Ket -> FP Gt
 Ket -> FP Bd
@@ -78,6 +85,7 @@ FN -> Gt Gt
 FN -> Gt Bd
 FN -> Gt FN
 FN -> FN Bd
+FN -> Bd FN
 FN -> FN Bil
 FN -> Bil FN
 FN -> FN Sf
@@ -101,6 +109,7 @@ FN -> Bil Bil
 FV -> Ps Kj
 FV -> Kj Ps
 FV -> Kj Bd
+FV -> Kj FN
 FV -> Kj Gt
 FV -> Kj X
 FP -> FP Kj
