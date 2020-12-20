@@ -2,7 +2,6 @@
 include_once("functions.php");
 include_once("CFG.php");
 include_once("CYKGenerator.php");
-include_once("Connection.php");
 
 if( isset($_POST['submit']) ){
     if( isset($_POST['stcInput']) && !empty($_POST['stcInput']) ){

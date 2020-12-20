@@ -97,6 +97,7 @@ FN -> Bd Sf
 FN -> Bd X
 FN -> FN X
 FN -> Gt X
+FN -> Bil Bil
 FV -> Ps Kj
 FV -> Kj Ps
 FV -> Kj Bd
